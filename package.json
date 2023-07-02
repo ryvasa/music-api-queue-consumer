@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/consumer.js",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,11 @@
     "dotenv": "^16.3.0",
     "nodemailer": "^6.9.3",
     "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.8.8"
   }
 }
